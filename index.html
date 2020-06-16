@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <!-- TODO configure metatags! -->
+  <meta charset="utf-8">
+  <title>Daily Wallpaper Web App</title>
+  <meta name="description" content="A (very) simple wallpaper helper designed to serve daily wallpapers to your phone.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Daily Wallpaper Helper">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/app.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header--title">Daily Wallpaper Helper!</h1>
+    <h2 class="header--subtitle">Daily choices for what to see in your background</h2>
+  </header>
+
+  <div class="search">
+    <form action="#">
+      <div class="search--input-container">
+        <label for="wp_search"></label>
+        <input id="wp_search" class="search--input" type="search" placeholder="Search">
+      </div>
+    </form>
+  </div>
+
+  <div class="results">
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/lamborghini-miura.jpg" alt="Lamborghini Miura">
+      </picture>
+      <h3 class="grid-item--info">Lamborghini Miura</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/lamborghini-huracan.jpg" alt="Lamborghini Huracán">
+      </picture>
+      <h3 class="grid-item--info">Lamborghini Huracán</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/alaskan-fox.jpg" alt="Fox in the wild">
+      </picture>
+      <h3 class="grid-item--info">Fox in the wild</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/alaskan-road.jpg" alt="Road in Alaska">
+      </picture>
+      <h3 class="grid-item--info">Road in Alaska</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/london.jpg" alt="London Skyline">
+      </picture>
+      <h3 class="grid-item--info">London Skyline</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/night-sky.jpg" alt="Night sky">
+      </picture>
+      <h3 class="grid-item--info">Night sky</h3>
+    </a>
+
+    <a class="grid-item" href="#">
+      <picture>
+        <img class="grid-item--image" src="img/thumbs/full-moon.jpg" alt="Full moon">
+      </picture>
+      <h3 class="grid-item--info">Full moon</h3>
+    </a>
+
+  </div>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="/serviceWorker.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

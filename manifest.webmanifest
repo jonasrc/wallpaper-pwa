@@ -1,0 +1,42 @@
+{
+  "short_name": "Wallpaper PWA",
+  "name": "Daily Wallpaper Web App",
+  "description": "A web app that serves daily wallpapers",
+  "icons": [
+    {
+      "src": "/img/icons/dwa_72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/img/icons/dwa_96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/img/icons/dwa_108x108.png",
+      "type": "image/png",
+      "sizes": "108x108"
+    },
+    {
+      "src": "/img/icons/dwa_144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/img/icons/dwa_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/dwa_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa"
+}
