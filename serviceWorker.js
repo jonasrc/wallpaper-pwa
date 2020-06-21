@@ -24,32 +24,37 @@ const cacheable = [
   '/css/normalize.css'
 ];
 
-if('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/serviceWorker.js').then((registration) => {
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, (error) => {
-      console.log('Error while registering service worker: ', error);
-    })
-  })
-}
+const allowSW = false;
 
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(cacheName)
-      .then((cache) => {
-        console.log('Cache opened!');
-        cache.addAll(cacheable);
+if(allowSW)
+{
+  if('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/serviceWorker.js').then((registration) => {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, (error) => {
+        console.log('Error while registering service worker: ', error);
       })
-  );
-});
+    })
+  }
 
-self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request)
-      .then((response) => {
-        return response ?? fetch(event.request);
-      }
-    )
-  );
-});
+  self.addEventListener('install', (event) => {
+    event.waitUntil(
+      caches.open(cacheName)
+        .then((cache) => {
+          console.log('Cache opened!');
+          cache.addAll(cacheable);
+        })
+    );
+  });
+
+  self.addEventListener('fetch', (event) => {
+    event.respondWith(
+      caches.match(event.request)
+        .then((response) => {
+            return response ?? fetch(event.request);
+          }
+        )
+    );
+  });
+}

@@ -5,31 +5,40 @@ html {
 }
 
 /*Header*/
-.header {
-  background-image: url('../img/header-bkg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 0.8em 0;
+header {
+  display: flex;
   box-shadow: 0 2px 8px 1px #afafaf;
+  padding: 0.8em;
 }
 
-.header .header--title,
-.header .header--subtitle {
+header .header--img {
+  height: 55px;
+}
+
+header .header--text-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 1em;
+}
+
+header .header--title,
+header .header--subtitle {
   margin: 0;
-  text-align: center;
 }
 
-.header .header--title {
-  text-transform: uppercase;
+header .header--title {
+  font-weight: bold;
+  font-size: 1.7em;
 }
 
-.header .header--subtitle {
-  font-size: 1em;
+header .header--subtitle {
+  font-size: 0.9em;
 }
 
 /*Search form*/
 .search {
-  margin-top: 2em;
   display: block;
 }
 
@@ -38,15 +47,25 @@ html {
   justify-content: center;
 }
 
+.search--input-label {
+  display: none;
+}
+
 .search--input {
   max-width: 300px;
   width: 60%;
   min-width: 200px;
-  border-radius: 2px;
-  border: 1px solid #828282;
-  height: 2.4em;
+  border-radius: 20px;
+  border: 1px solid #cccccc;
+  height: 2.6em;
   padding: 0 0.8em;
 }
+
+/*Content*/
+section.content {
+  margin: 3em 0;
+}
+
 
 /*Results grid*/
 .results {
@@ -61,6 +80,11 @@ html {
   background-color: white;
   text-decoration: none;
   color: initial;
+  box-shadow: 1px 1px 9px 0 #d6d6d6;
+}
+
+.results .grid-item .grid-item--figure {
+  margin: 0;
 }
 
 .results .grid-item .grid-item--image {
@@ -74,4 +98,28 @@ html {
   font-weight: lighter;
   margin: 0.8em 0;
   text-align: center;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5em;
+  box-shadow: 0 -2px 8px 1px #afafaf;
+}
+
+footer .uphere-logo {
+  margin: 0 1em 0 0;
+}
+
+footer .uphere-logo .uphere-logo--image {
+  height: 32px;
+  border: 1px dashed #5f5f5f;
+}
+
+footer .uphere-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }

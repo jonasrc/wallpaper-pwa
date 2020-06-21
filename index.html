@@ -4,7 +4,7 @@
 <head>
   <!-- TODO configure metatags! -->
   <meta charset="utf-8">
-  <title>Daily Wallpaper Web App</title>
+  <title>Latitude - Real-time sattelite location and details</title>
   <meta name="description" content="A (very) simple wallpaper helper designed to serve daily wallpapers to your phone.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -28,72 +28,35 @@
 </head>
 
 <body>
-  <header class="header">
-    <h1 class="header--title">Daily Wallpaper Helper!</h1>
-    <h2 class="header--subtitle">Daily choices for what to see in your background</h2>
+  <header>
+    <img class="header--img" src="img/icons/latitude_108.png">
+    <div class="header--text-container">
+      <h1 class="header--title">Latitude</h1>
+      <h2 class="header--subtitle">Real-time sattelite location and details</h2>
+    </div>
   </header>
 
-  <div class="search">
-    <form action="#">
-      <div class="search--input-container">
-        <label for="wp_search"></label>
-        <input id="wp_search" class="search--input" type="search" placeholder="Search">
-      </div>
-    </form>
-  </div>
+  <section class="content">
+    <nav class="search">
+      <form action="#">
+        <div class="search--input-container">
+          <label class="search--input-label" for="wp_search">Search for sattelites</label>
+          <input id="wp_search" class="search--input" type="search" placeholder="Search for sattelites">
+        </div>
+      </form>
+    </nav>
 
-  <div class="results">
+    <div id="sattelite_grid" class="results"></div>
+  </section>
 
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/lamborghini-miura.jpg" alt="Lamborghini Miura">
-      </picture>
-      <h3 class="grid-item--info">Lamborghini Miura</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/lamborghini-huracan.jpg" alt="Lamborghini Huracán">
-      </picture>
-      <h3 class="grid-item--info">Lamborghini Huracán</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/alaskan-fox.jpg" alt="Fox in the wild">
-      </picture>
-      <h3 class="grid-item--info">Fox in the wild</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/alaskan-road.jpg" alt="Road in Alaska">
-      </picture>
-      <h3 class="grid-item--info">Road in Alaska</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/london.jpg" alt="London Skyline">
-      </picture>
-      <h3 class="grid-item--info">London Skyline</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/night-sky.jpg" alt="Night sky">
-      </picture>
-      <h3 class="grid-item--info">Night sky</h3>
-    </a>
-
-    <a class="grid-item" href="#">
-      <picture>
-        <img class="grid-item--image" src="img/thumbs/full-moon.jpg" alt="Full moon">
-      </picture>
-      <h3 class="grid-item--info">Full moon</h3>
-    </a>
-
-  </div>
+  <footer>
+    <figure class="uphere-logo">
+      <img class="uphere-logo--image" src="img/icons/uphere-api.jpg" alt="UPHERE.SPACE API Logo">
+    </figure>
+    <span>Powered by
+      <a class="uphere-link" href="https://rapidapi.com/uphere.space/api/uphere-space1" rel="noreferrer" target="_blank">UPHERE.SPACE API</a>
+    </span>
+  </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>

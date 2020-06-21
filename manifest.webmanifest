@@ -1,35 +1,35 @@
 {
-  "short_name": "Wallpaper PWA",
-  "name": "Daily Wallpaper Web App",
-  "description": "A web app that serves daily wallpapers",
+  "short_name": "Latitude",
+  "name": "Latitude",
+  "description": "Real-time sattelite location and details",
   "icons": [
     {
-      "src": "/img/icons/dwa_72x72.png",
+      "src": "/img/icons/latitude_72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
     {
-      "src": "/img/icons/dwa_96x96.png",
+      "src": "/img/icons/latitude_96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "/img/icons/dwa_108x108.png",
+      "src": "/img/icons/latitude_108.png",
       "type": "image/png",
       "sizes": "108x108"
     },
     {
-      "src": "/img/icons/dwa_144x144.png",
+      "src": "/img/icons/latitude_144.png",
       "type": "image/png",
       "sizes": "144x144"
     },
     {
-      "src": "/img/icons/dwa_192x192.png",
+      "src": "/img/icons/latitude_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/icons/dwa_512x512.png",
+      "src": "/img/icons/latitude_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
