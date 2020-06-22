@@ -4,18 +4,21 @@
 <head>
   <!-- TODO configure metatags! -->
   <meta charset="utf-8">
-  <title>Latitude - Real-time sattelite location and details</title>
-  <meta name="description" content="A (very) simple wallpaper helper designed to serve daily wallpapers to your phone.">
+  <title>Latitude - Real-time satellite location and details</title>
+  <meta name="description" content="A (very) simple satellite tracker designed to serve real-time location and details on popular artificial satellites.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Daily Wallpaper Helper">
-  <meta property="og:type" content="">
+  <meta property="og:title" content="Latitude - satellite location and details">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="favicon.ico">
 
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+
   <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/icons/latitude_512.png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -28,40 +31,47 @@
 </head>
 
 <body>
-  <header>
-    <img class="header--img" src="img/icons/latitude_108.png">
-    <div class="header--text-container">
-      <h1 class="header--title">Latitude</h1>
-      <h2 class="header--subtitle">Real-time sattelite location and details</h2>
-    </div>
-  </header>
+  <div id="page_container">
+    <header>
+      <img class="header--img" src="img/icons/latitude_108.png">
+      <div class="header--text-container">
+        <h1 class="header--title">Latitude</h1>
+        <h2 class="header--subtitle">Real-time satellite location and details</h2>
+      </div>
+    </header>
 
-  <section class="content">
-    <nav class="search">
-      <form action="#">
-        <div class="search--input-container">
-          <label class="search--input-label" for="wp_search">Search for sattelites</label>
-          <input id="wp_search" class="search--input" type="search" placeholder="Search for sattelites">
-        </div>
-      </form>
-    </nav>
+    <section class="content">
+      <nav class="search">
+        <form action="#">
+          <div class="search--input-container">
+            <label class="search--input-label" for="wp_search">Search for satellites</label>
+            <input id="wp_search" class="search--input" type="search" placeholder="Search for satellites">
+          </div>
+        </form>
+      </nav>
 
-    <div id="sattelite_grid" class="results"></div>
-  </section>
+      <nav class="install-app">
+        <button id="install_app_btn" class="install-app--btn" hidden>INSTALL APP</button>
+      </nav>
 
-  <footer>
-    <figure class="uphere-logo">
-      <img class="uphere-logo--image" src="img/icons/uphere-api.jpg" alt="UPHERE.SPACE API Logo">
-    </figure>
-    <span>Powered by
+      <div id="satellite_grid" class="results"></div>
+    </section>
+
+    <footer>
+      <figure class="uphere-logo">
+        <img class="uphere-logo--image" src="img/icons/uphere-api.jpg" alt="UPHERE.SPACE API Logo">
+      </figure>
+      <span>Powered by
       <a class="uphere-link" href="https://rapidapi.com/uphere.space/api/uphere-space1" rel="noreferrer" target="_blank">UPHERE.SPACE API</a>
     </span>
-  </footer>
+    </footer>
+  </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-  <script src="/serviceWorker.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="serviceWorker.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

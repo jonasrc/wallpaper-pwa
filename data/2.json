@@ -1,123 +1,32 @@
-[
-   {
-      "id":"3347",
-      "name":"STARLINK-1316",
-      "number":"45415",
-      "classification":"U",
-      "launch_date":"2020-03-18T00:00:00.000Z",
-      "country":"US",
-      "type":"PAYLOAD",
-      "size":"LARGE",
-      "orbital_period":"92.14",
-      "intldes":"2020-019BH",
-      "count":"714",
-      "selected":true,
-      "thumbnail": "img/thumbs/starlink-1316.jpg",
-      "image": "img/sattelites/starlink-1316.jpg",
-      "categories":[
-         {
-            "0":"STARLINK"
-         }
-      ]
-   },
-   {
-      "id":"1",
-      "name":"SPACE STATION",
-      "number":"25544",
-      "classification":"U",
-      "launch_date":"1998-11-20T00:00:00.000Z",
-      "country":"ISS",
-      "type":"PAYLOAD",
-      "size":"LARGE",
-      "orbital_period":"92.98",
-      "intldes":"1998-067A",
-      "count":"40",
-      "selected":true,
-      "thumbnail": "img/thumbs/space-station.jpg",
-      "image": "img/sattelites/space-station.jpg",
-      "categories":[
-         {
-            "0":"AMATEUR RADIO"
-         },
-         {
-            "1":"BRIGHTEST"
-         },
-         {
-            "2":"ISS"
-         },
-         {
-            "3":"TRACKING AND DATA RELAY SATELLITE SYSTEM"
-         }
-      ]
-   },
-   {
-      "id":"2",
-      "name":"HST",
-      "number":"20580",
-      "classification":"U",
-      "launch_date":"1990-04-24T00:00:00.000Z",
-      "country":"US",
-      "type":"PAYLOAD",
-      "size":"LARGE",
-      "orbital_period":"95.40",
-      "intldes":"1990-037B",
-      "count":"23",
-      "selected":true,
-      "thumbnail": "img/thumbs/hst.jpg",
-      "image": "img/sattelites/hst.jpg",
-      "categories":[
-         {
-            "0":"BRIGHTEST"
-         },
-         {
-            "1":"SPACE & EARTH SCIENCE"
-         },
-         {
-            "2":"TRACKING AND DATA RELAY SATELLITE SYSTEM"
-         }
-      ]
-   },
-   {
-      "id":"1750",
-      "name":"NOAA 20",
-      "number":"43013",
-      "classification":"U",
-      "launch_date":"2017-11-18T00:00:00.000Z",
-      "country":"US",
-      "type":"PAYLOAD",
-      "size":"LARGE",
-      "orbital_period":"101.44",
-      "intldes":"2017-073A",
-      "count":"19",
-      "selected":true,
-      "thumbnail": "img/thumbs/noaa-20.jpg",
-      "image": "img/sattelites/noaa-20.jpg",
-      "categories":[
-         {
-            "0":"NOAA"
-         },
-         {
-            "1":"WEATHER"
-         }
-      ]
-   },
-   {
-      "id":"2925",
-      "name":"CHEOPS",
-      "number":"44874",
-      "classification":"U",
-      "launch_date":"2019-12-18T00:00:00.000Z",
-      "country":"ESA",
-      "type":"PAYLOAD",
-      "size":"LARGE",
-      "orbital_period":"98.85",
-      "intldes":"2019-092B",
-      "count":"16",
-      "selected":true,
-      "thumbnail": "img/thumbs/cheops.jpg",
-      "image": "img/sattelites/cheops.jpg",
-      "categories":[
-
-      ]
-   }
-]
+{
+  "id":"2",
+  "name":"Hubble Space Telescope",
+  "number":"20580",
+  "classification":"U",
+  "launch_date":"1990-04-24T00:00:00.000Z",
+  "country":"US",
+  "type":"PAYLOAD",
+  "size":"LARGE",
+  "orbital_period":"95.40",
+  "intldes":"1990-037B",
+  "count":"23",
+  "selected":true,
+  "thumbnail": "img/thumbs/hst.jpg",
+  "image": "img/satellites/hst.jpg",
+  "lat": "-69.34455439843211",
+  "lng":  "-2.834841089920333",
+  "height": "332.558835040733",
+  "speed": "16996.970517404618",
+  "date": "2020-06-23T11:45:23.000Z",
+  "categories":[
+    {
+      "0":"BRIGHTEST"
+    },
+    {
+      "1":"SPACE & EARTH SCIENCE"
+    },
+    {
+      "2":"TRACKING AND DATA RELAY SATELLITE SYSTEM"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "short_name": "Latitude",
   "name": "Latitude",
-  "description": "Real-time sattelite location and details",
+  "description": "Real-time satellite location and details",
   "icons": [
     {
       "src": "/img/icons/latitude_72.png",

@@ -1,8 +1,8 @@
 {
-  "name": " ",
+  "name": "latitude-pwa",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
+  "keywords": "latitude",
   "license": "",
   "author": "",
   "scripts": {
@@ -15,6 +15,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "live-server-https": "0.0.2"
   }
 }

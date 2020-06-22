@@ -12,13 +12,13 @@ xhttp.onreadystatechange = function() {
       gridHtml+= fillGridItemTemplate(element);
     });
 
-    let satGrid = document.getElementById("sattelite_grid");
+    let satGrid = document.getElementById("satellite_grid");
     satGrid.insertAdjacentHTML("beforeend", gridHtml);
   }
 };
 
 function fillGridItemTemplate(element) {
-  return `<a class="grid-item" href="/${element.id}">
+  return `<a class="grid-item" href="/details.html?id=${element.id}">
       <figure class="grid-item--figure">
         <img class="grid-item--image" src="${element.thumbnail}" alt="${element.name}">
       </figure>

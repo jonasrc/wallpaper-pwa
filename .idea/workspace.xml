@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c61e9338-2fbe-471f-9073-8c4e12f3bb46" name="Default Changelist" comment="" />
+    <list default="true" id="c61e9338-2fbe-471f-9073-8c4e12f3bb46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/1750.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/2925.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/3347.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/54_-_gallery_image_picture_landscape_potrait_album_wallpaper-512.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_108x108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dwa_96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sattelites/cheops.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/satellites/cheops.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sattelites/hst.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/satellites/hst.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sattelites/noaa-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/satellites/noaa-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sattelites/space-station.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/satellites/space-station.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sattelites/starlink-1316.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/satellites/starlink-1316.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/alaskan-fox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/alaskan-road.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/full-moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/lamborghini-huracan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/lamborghini-miura.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/london.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thumbs/night-sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/alaskan-fox.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/alaskan-road.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/full-moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/lamborghini-huracan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/lamborghini-miura.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/london.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/night-sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/serviceWorker.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +61,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dHe01DhwLhIG0JW7eWXY5MtdDQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,13 +72,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\js" />
+      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\data" />
+      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa" />
       <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\daily-wallpaper-pwa" />
     </key>
   </component>
@@ -46,6 +102,9 @@
       <workItem from="1592086219774" duration="8347000" />
       <workItem from="1592165462744" duration="5258000" />
       <workItem from="1592271374628" duration="3358000" />
+      <workItem from="1592347535463" duration="1954000" />
+      <workItem from="1592711965926" duration="64000" />
+      <workItem from="1592768136385" duration="26738000" />
     </task>
     <servers />
   </component>
@@ -57,9 +116,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592272098008" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592165556998">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1592775824075">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592165556998" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592775824075" />
+    <state x="399" y="109" width="738" height="606" key="find.popup" timestamp="1592795530928">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="109" width="738" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1592795530928" />
   </component>
 </project>
