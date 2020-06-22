@@ -4,6 +4,14 @@ html {
   background-color: whitesmoke;
 }
 
+/*Page layout*/
+#page_container {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
 /*Header*/
 header {
   display: flex;
@@ -66,6 +74,12 @@ section.content {
   margin: 3em 0;
 }
 
+/*Install app*/
+nav.install-app {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
 
 /*Results grid*/
 .results {
@@ -107,6 +121,7 @@ footer {
   justify-content: flex-start;
   padding: 1.5em;
   box-shadow: 0 -2px 8px 1px #afafaf;
+  margin: auto 0 0 0;
 }
 
 footer .uphere-logo {
@@ -116,10 +131,66 @@ footer .uphere-logo {
 footer .uphere-logo .uphere-logo--image {
   height: 32px;
   border: 1px dashed #5f5f5f;
+  padding: 3px;
+  background-color: white;
 }
 
 footer .uphere-link {
   text-decoration: none;
   font-weight: bold;
   color: black;
+}
+
+/*Details page*/
+section.sat-details {
+  display: flex;
+  flex-flow: column;
+  margin: 3em 1em;
+  padding: 1em;
+  background-color: white;
+  box-shadow: 0 2px 8px 1px #afafaf;
+}
+
+section.sat-details .sat-details--title,
+section.sat-details .sat-details--subtitle {
+  margin: 0 0 0.4em 0;
+}
+
+section.sat-details .sat-details--figure {
+  margin: 0 0 2em 0;
+}
+
+section.sat-details .sat-details--figure .sat-details--img {
+  max-width: 100%;
+}
+
+section.sat-details .sat-details--figure .sat-details--img-caption {
+  margin-top: 0.5em;
+}
+
+section.sat-details .sat-details--info-grid,
+section.sat-details .sat-details--location-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 0;
+  margin-bottom: 2em;
+}
+
+section.sat-details .sat-details--info,
+section.sat-details .sat-details--location {
+  padding: 0.6em 0.4em;
+  margin: 0;
+  border-top: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+  border-left: 1px solid #d5d5d5;
+}
+
+section.sat-details .sat-details--info:last-of-type,
+section.sat-details .sat-details--location:last-of-type {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+section.sat-details .sat-details--info > span,
+section.sat-details .sat-details--location > span {
+  font-weight: bold;
 }
