@@ -33,7 +33,7 @@
 <body>
   <div id="page_container">
     <header>
-      <img class="header--img" src="img/icons/latitude_108.png">
+      <img class="header--img" src="img/icons/latitude_108.png" alt="Latitude - Logo">
       <div class="header--text-container">
         <h1 class="header--title">Latitude</h1>
         <h2 class="header--subtitle">Real-time satellite location and details</h2>
@@ -41,18 +41,20 @@
     </header>
 
     <section class="content">
-      <nav class="search">
-        <form action="#">
-          <div class="search--input-container">
-            <label class="search--input-label" for="wp_search">Search for satellites</label>
-            <input id="wp_search" class="search--input" type="search" placeholder="Search for satellites">
-          </div>
-        </form>
-      </nav>
+      <div class="upper-bar">
+        <nav class="search">
+          <form id="search_form" action="#">
+            <div class="search--input-container">
+              <label class="search--input-label" for="search_input">Search for satellites</label>
+              <input id="search_input" class="search--input" type="search" placeholder="Search for satellites">
+            </div>
+          </form>
+        </nav>
 
-      <nav class="install-app">
-        <button id="install_app_btn" class="install-app--btn" hidden>INSTALL APP</button>
-      </nav>
+        <nav id="install_app_btn_container" class="install-app">
+          <button id="install_app_btn" class="install-app--btn"><img src="img/icons/install-app.png" alt="Install App"></button>
+        </nav>
+      </div>
 
       <div id="satellite_grid" class="results"></div>
     </section>
@@ -65,11 +67,26 @@
       <a class="uphere-link" href="https://rapidapi.com/uphere.space/api/uphere-space1" rel="noreferrer" target="_blank">UPHERE.SPACE API</a>
     </span>
     </footer>
+
+<!--    Modal-->
+<!--    <div id="modal_background" class="modal-background">-->
+<!--      <section class="modal">-->
+<!--        <h2 class="modal-title">THIS WEB APP ALLOWS YOU TO INSTALL IT</h2>-->
+<!--        <h3 class="modal-text">Installing this website as an app in your computer or smartphone will give you access to offline functionalities.</h3>-->
+<!--        <h3 class="modal-text">Do you wish to install it?</h3>-->
+<!--        <div class="modal-buttons">-->
+<!--          <button id="accept_app_installation" class="modal-button accept">YES</button>-->
+<!--          <button id="refuse_app_installation" class="modal-button refuse">NO</button>-->
+<!--        </div>-->
+<!--      </section>-->
+<!--    </div>-->
+
   </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!--  <script src="js/modal.js"></script>-->
+  <script src="js/index.js"></script>
   <script src="js/ui.js"></script>
   <script src="serviceWorker.js"></script>
 

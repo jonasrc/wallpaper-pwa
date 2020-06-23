@@ -12,6 +12,15 @@ html {
   justify-content: flex-start;
 }
 
+.search .search--input-container .search--input:focus,
+.search .search--input-container .search--input:active,
+nav.install-app .install-app--btn:focus,
+nav.install-app .install-app--btn:active {
+  outline: 0;
+  outline-style:none;
+  outline-width:0;
+}
+
 /*Header*/
 header {
   display: flex;
@@ -70,15 +79,31 @@ header .header--subtitle {
 }
 
 /*Content*/
+.upper-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 section.content {
-  margin: 3em 0;
+  margin: 3em 0.4em;
 }
 
 /*Install app*/
 nav.install-app {
-  display: flex;
-  justify-content: center;
-  margin: 1em 0;
+  display: none;
+}
+
+nav.install-app .install-app--btn {
+  height: 2.6em;
+  width: 4.5em;
+  border: 0;
+  border-radius: 1.4em;
+  background-color: rgb(37, 37, 37);
+}
+
+nav.install-app .install-app--btn img {
+  height: 2.1em;
 }
 
 /*Results grid*/
@@ -193,4 +218,52 @@ section.sat-details .sat-details--location:last-of-type {
 section.sat-details .sat-details--info > span,
 section.sat-details .sat-details--location > span {
   font-weight: bold;
+}
+
+.modal-background {
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-background.active {
+  display: flex;
+}
+
+.modal-background .modal {
+  background-color: white;
+  max-width: 500px;
+  margin: 0 2em;
+  padding: 1em 2em;
+}
+
+.modal-background .modal .modal-title {
+  font-size: 1.3em;
+}
+
+.modal-background .modal .modal-text {
+  font-weight: normal;
+  font-size: 1.05em;
+}
+
+.modal .modal-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.modal .modal-buttons .modal-button {
+  height: 2.5em;
+  width: 100px;
+  margin: 0 1em;
+  font-weight: bold;
+}
+
+.modal .modal-buttons .modal-button.accept {
+  background-color: #2c2c2c;
+  color: white;
+  border: 0;
 }
