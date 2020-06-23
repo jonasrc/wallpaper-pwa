@@ -24,7 +24,7 @@ const cacheable = [
 if('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/serviceWorker.js').then((registration) => {
     console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    initializeUI();
+    initializeModal();
   }, (error) => {
     console.log('Error while registering service worker: ', error);
   })

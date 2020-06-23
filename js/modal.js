@@ -1,12 +1,16 @@
 const modalBackground = document.getElementById('modal_background');
 const acceptBtn = document.getElementById('accept_app_installation');
-const refuseBtn = document.getElementById('refuse_app_installation');
+let deferredInstallPrompt;
 
-window.onload = function() {
-  refuseBtn.addEventListener('click', () => {
-    closeModal();
-  })
-};
+window.addEventListener('beforeinstallprompt', (event) => {
+  console.log("Entered beforeinstallprompt event!");
+  deferredInstallPrompt = event;
+  // installBtnContainer.style.display = "flex";
+});
+
+window.addEventListener('appinstalled', (evt) => {
+  modalBackground.style.display = "none";
+});
 
 function openModal() {
   document.body.style.overflow = 'hidden';

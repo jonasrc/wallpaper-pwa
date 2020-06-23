@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61e9338-2fbe-471f-9073-8c4e12f3bb46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/modalUi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/html.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/js.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/usage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Untitled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header-bkg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/serviceWorker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,14 +40,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\js" />
       <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa" />
       <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\data" />
       <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\daily-wallpaper-pwa" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jonas.r.castanheira\Documents\Externo\PUC\AAM\wallpaper-pwa\data" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -82,7 +71,7 @@
       <workItem from="1592845346447" duration="2721000" />
       <workItem from="1592866673483" duration="7836000" />
       <workItem from="1592944698712" duration="1454000" />
-      <workItem from="1592946170729" duration="2275000" />
+      <workItem from="1592946170729" duration="4641000" />
     </task>
     <servers />
   </component>

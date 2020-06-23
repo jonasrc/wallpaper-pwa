@@ -38,11 +38,11 @@
       </div>
     </header>
 
-    <div class="upper-bar" style="margin-top: 3em;">
-      <nav id="install_app_btn_container" class="install-app">
-        <button id="install_app_btn" class="install-app--btn"><img src="img/icons/install-app.png" alt="Install App"></button>
-      </nav>
-    </div>
+<!--    <div class="upper-bar" style="margin-top: 3em;">-->
+<!--      <nav id="install_app_btn_container" class="install-app">-->
+<!--        <button id="install_app_btn" class="install-app&#45;&#45;btn"><img src="img/icons/install-app.png" alt="Install App"></button>-->
+<!--      </nav>-->
+<!--    </div>-->
 
     <section id="satellite_details" class="sat-details"></section>
 
@@ -54,13 +54,34 @@
       <a class="uphere-link" href="https://rapidapi.com/uphere.space/api/uphere-space1" rel="noreferrer" target="_blank">UPHERE.SPACE API</a>
     </span>
     </footer>
+
+    <!-- Modal -->
+    <div id="modal_background" class="modal-background">
+      <section class="modal">
+        <h2 class="modal-title">THIS WEB APP ALLOWS YOU TO INSTALL IT</h2>
+        <h3 class="modal-text">Installing this website as an app in your computer or smartphone will give you access to offline functionalities.</h3>
+        <h3 class="modal-text">Do you wish to install it?</h3>
+        <div class="modal-buttons">
+          <button id="accept_app_installation" class="modal-button accept">YES</button>
+          <button onclick="closeModal()" id="refuse_app_installation" class="modal-button refuse">NO</button>
+        </div>
+      </section>
+    </div>
   </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
+  <script src="js/modal.js"></script>
   <script src="js/details.js"></script>
-  <script src="js/ui.js"></script>
+<!--  <script src="js/ui.js"></script>-->
   <script src="serviceWorker.js"></script>
+<script>
+  window.addEventListener('appinstalled', (evt) => {
+    // installBtnContainer.style.display = "none";
+    closeModal();
+  });
+
+</script>
 </body>
 
 </html>
